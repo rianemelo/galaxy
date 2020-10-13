@@ -12,4 +12,5 @@ public interface PlanetRepository extends MongoRepository<Planet, String> {
 	Planet findById(ObjectId id);// ta funcionando só com esse
 	//List<Planet> findByName(String name);
 	
+	// findAll() método do repository MondorRepository
 }

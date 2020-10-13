@@ -18,14 +18,6 @@ public class Planet {
 	
 	public Planet() {
 	}
-	
-//	public Planet(ObjectId id, String name, String climate, String terrain, Integer films) {
-//		this.id = id;
-//		this.name = name;
-//		this.climate = climate;
-//		this.terrain = terrain;
-//		this.films = films;
-//	}
 
 	public String getId() { 
 		return id.toHexString(); 

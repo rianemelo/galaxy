@@ -49,6 +49,9 @@ public class PlanetController {
 	
 	@RequestMapping(value = {"", "/"}, method = RequestMethod.GET)
 	public List<Planet> findAll() {
+		//service.findAll();
+		System.out.println("hello from the controller");//, service.findAll());
+		
 		return service.findAll();
 	}	
 	

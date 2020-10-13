@@ -62,7 +62,7 @@ public class PlanetService {
 		Gson gson = new Gson();
 		JsonArray results = gson.fromJson(gson.toJson(object), JsonObject.class)
 							.getAsJsonObject("body")
-							.getAsJsonArray("results"); //results is an array of objects at the swapi site response
+							.getAsJsonArray("results"); //results é uma lista de objetos na response da api swapi
 		JsonElement correctResult = null;
 		
 		for (JsonElement z: results) {
